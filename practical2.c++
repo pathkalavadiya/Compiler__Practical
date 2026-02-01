@@ -34,7 +34,7 @@ int main(){
      //final states array
     int finalStates[FinalStates];
     cout << "Enter the final states: ";
-    for(int i=1;i<=FinalStates;i++){
+    for(int i=0;i<FinalStates;i++){
         cin >> finalStates[i];
     }
 
@@ -82,7 +82,7 @@ for(char c:inputString){
 }
 
 bool isvalid=false;
-for(int i=1;i<=FinalStates;i++){
+for(int i=0;i<FinalStates;i++){
     if(currentState==finalStates[i]){
         isvalid=true;
         break;
